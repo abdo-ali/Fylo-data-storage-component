@@ -108,6 +108,12 @@ nav{
     flex-direction: column;
     justify-content: space-between;
 }
+.storage-pargraph{
+    color: var(--clr-Pale-Blue);
+}
+.storage-pargraph span{
+    color: #fff;
+}
 span{
     color: var(--clr-Pale-Blue);
     font-weight: var(--fw-700);
@@ -119,7 +125,7 @@ span{
 .remain-storage{
     width: 10rem;
     height: 4rem;
-    background-color: var(--clr-Pale-Blue);
+    background-color: #fff;
     color: var(--clr-Grayish-Blue);
     position: absolute;
     top: -42px;
@@ -142,7 +148,7 @@ span{
     width: 0;
     border-width: 21px;
     border-style: solid;
-    border-color: transparent var(--clr-Pale-Blue) transparent transparent;
+    border-color: transparent #fff transparent transparent;
     position: absolute;
     bottom: -18px;
     right: 0px;  
@@ -190,6 +196,7 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    color: #fff;
 }
 @media (max-width: 600px) {
     body{
@@ -206,6 +213,7 @@ span{
     }
     .fylo-storage{
         height: 140px;
+        margin-top: 18px;
     }
     .storage-pargraph{
         text-align: center;
